@@ -1,5 +1,5 @@
 # billboard-top-100
-A look into the history of the music featured in the Billboard Top 10, using Databricks to process the data via a multi-hop architecture ETL.
+A look into the history of the music featured in the Billboard Top 100, using Databricks to process the data via a multi-hop architecture ETL.
 
 This uses the following Kaggle datasest: https://www.kaggle.com/datasets/ludmin/billboard/data
 
@@ -12,3 +12,5 @@ The ETL file is called:
 billboard-top-100 Notebook 
 
 This ETL includes data enrichment via Spotify's free Search API and Reccobeat's free Audio Features API. Includes Gold layer aggregation into several tables for insights about tracks, artists, annual trends, decade trends, and more. Includes an AI layer in the loop that intelligently adjusts the 'Song' and 'Artist' query such that the track can be found in cases where the original Kaggle dataset wording or formatting of the song or artist are atypical or include symbols that Spotify's Search API cannot handle well.
+
+Note that the code currently filters down to just the Top 5, rather than processing the full Top 100. This is to limit the cost, processing time, and volume of data since this project is just for practice and demonstrating my programming and data engineering skills development.

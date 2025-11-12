@@ -1,6 +1,6 @@
 # billboard-top-100
 
-# A practice project fully programmed by Darren Miller to aid in learning Python, SQL, Databricks, AI, and APIs.
+# A practice project fully programmed by Darren Miller to aid in my development of skills related to Python, SQL, Databricks, AI, and APIs.
 
 A look into the history of the music featured in the Billboard Top 100, using Databricks to process the data via a multi-hop architecture ETL.
 

@@ -1,4 +1,7 @@
 # billboard-top-100
+
+# A pactice project fully programmed by Darren Miller
+
 A look into the history of the music featured in the Billboard Top 100, using Databricks to process the data via a multi-hop architecture ETL.
 
 This uses the following Kaggle datasest: https://www.kaggle.com/datasets/ludmin/billboard/data

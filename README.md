@@ -1,10 +1,12 @@
-# billboard-top-100
+## billboard-top-100
 
-# A practice project fully programmed by Darren Miller to aid in my development of skills related to Python, SQL, Databricks, AI, and APIs.
+# A look into the history of the music featured in the Billboard Top 100 using a multi-hop ETL.
 
-A look into the history of the music featured in the Billboard Top 100, using Databricks to process the data via a multi-hop architecture ETL.
+A practice project fully programmed by Darren Miller to aid in my development of skills related to Python, SQL, Databricks, AI, APIs, AWS, and Tableau.
 
-This uses the following Kaggle datasest: https://www.kaggle.com/datasets/ludmin/billboard/data
+------------
+
+This project uses the following Kaggle datasest: https://www.kaggle.com/datasets/ludmin/billboard/data
 
 The dataset must be imported to AWS as an S3 using a Lambda function, then it can be pulled into Databricks. The dataset is updated weekly every Wednesday at 02:00 (server time). The AWS S3 can be set on a scheduler using EventBridge to update weekly some time after the dataset weekly updates.
 

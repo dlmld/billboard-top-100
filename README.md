@@ -9,4 +9,6 @@ See the Lambda function (lambda_function.py) for the dataset import.
 
 The ETL file is called:
 
-billboard-top-100 BRONZE SILVER GOLD - includes data enrichment via Spotify's free Search API and Reccobeat's free Audio Features API. Includes Gold layer aggregation into several tables for insights about tracks, artists, annual trends, decade trends, and more.
+billboard-top-100 Notebook 
+
+This ETL includes data enrichment via Spotify's free Search API and Reccobeat's free Audio Features API. Includes Gold layer aggregation into several tables for insights about tracks, artists, annual trends, decade trends, and more. Includes an AI layer in the loop that intelligently adjusts the 'Song' and 'Artist' query such that the track can be found in cases where the original Kaggle dataset wording or formatting of the song or artist are atypical or include symbols that Spotify's Search API cannot handle well.
